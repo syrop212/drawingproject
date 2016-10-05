@@ -17,11 +17,12 @@ canvas.fillStyle = "black";
 canvas.closePath();
 canvas.stroke();
 
+//square
+canvas.fillStyle = "black";
+canvas.fillRect(50, 50, 200, 200);
+canvas.clearRect(45 ,45,160,160);
+canvas.strokeRect(100,100,100,100);
 
-//neck
-canvas.beginPath();
-canvas.moveTo(20,20);           // Create a starting point
-canvas.lineTo(100,20);          // Create a horizontal line
-canvas.arcTo(150,20,150,70,50); // Create an arc
-canvas.lineTo(150,120);         // Continue with vertical line
-canvas.stroke();     
+canvas.fillRect(700, 50, 200, 200);
+canvas.clearRect(700,45, 160, 160);
+canvas.strokeRect(100,100,100,100);
